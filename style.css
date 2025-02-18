@@ -1,0 +1,226 @@
+body {
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  padding: 30px 10%;
+}
+
+.logo {
+  position: relative;
+  display: inline-block;
+}
+
+.logo-text {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+}
+
+.logo-background {
+  background-color: #4ce0d7;
+  width: 147px;
+  height: 20px;
+  top: 14px;
+  left: 87px;
+  position: absolute;
+  z-index: -1;
+}
+
+.link-container {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 700;
+  color: #262626;
+
+  background-color: transparent;
+  padding: 10px 20px;
+  border-radius: 40px;
+  transition: all 0.3s;
+}
+
+.link:hover {
+  background-color: #4ce0d7;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search {
+  background-color: transparent;
+  padding: 8px;
+  border-radius: 40px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.search:hover {
+  background-color: #4ce0d7;
+}
+
+.search-icon {
+  width: 24px;
+  height: auto;
+  display: block;
+}
+
+.cover-container {
+  background-image: url("assets/cover.png");
+  background-size: cover;
+  border-radius: 20px;
+  width: 100%;
+  height: 559px;
+
+  display: flex;
+  align-items: center;
+}
+
+.text-container {
+  margin-left: 30px;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  color:white;
+}
+
+.subtitle { 
+    font-size: 12px;
+}
+.title {
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.text-gradient{
+    background: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.desc {
+    font-size: 20px;
+    
+    max-width: 500px;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+
+.topics-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+.topics-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+.topic-card {
+  background: white;
+  width: 160px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.topic-card:hover {
+  transform: translateY(-5px);
+}
+
+
+.topic-card img {
+  width: 50px;
+  opacity: 0.6;
+}
+
+
+.topic-card h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+
+.view-more {
+  background: #4ee3d6;
+  color: black;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.view-more:hover {
+  background: #3ccfc1;
+}
+
+
+.highlighted {
+  border: 2px solid #ff00ff;
+}
+
+
+.topics-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 15px; 
+}
+
+.topic-card {
+  flex: 0 0 auto; 
+  width: 200px; 
+  text-align: center;
+}
+.topic-card {
+  display: flex;
+  flex-direction: column; /* აწყობს ელემენტებს ვერტიკალურად */
+  align-items: center; /* ცენტრში აყენებს */
+  text-align: center;
+  width: 150px; /* ან სასურველი ზომა */
+}
+
+.topic-card img {
+  display: block; /* დარწმუნდი, რომ სურათი ბლოკ ელემენტია */
+  width: 100px; /* ან სასურველი ზომა */
+  height: auto;
+  margin-bottom: 10px; /* ფოტო და ტექსტი დაშორდეს */
+}
+
+.topic-card h3,
+.topic-card button {
+  margin: 5px 0; /* ტექსტსა და ღილაკს შორის სივრცე */
+}
+
+
+
+
